@@ -15,7 +15,7 @@ import * as func from './includes/Functions'
 
 const persistConfig = {
     key: 'root',
-    blacklist: ['message'],
+    // blacklist: ['message'],
     storage
 }
 

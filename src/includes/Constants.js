@@ -1,4 +1,5 @@
 import { Dimensions } from 'react-native'
+import { displayName } from '../../app.json'
 
 export default {
     COLOR: {
@@ -10,7 +11,7 @@ export default {
         GREEN_DARKEST: '#446E5C'
     },
 
-    APP_NAME: 'ABAHATA',
+    APP_NAME: displayName,
     FONT_COLOR: '#333333',
     WINDOW_WIDTH: Dimensions.get('window').width,
     WINDOW_HEIGHT: Dimensions.get('window').height

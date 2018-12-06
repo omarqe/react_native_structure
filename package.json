@@ -1,5 +1,5 @@
 {
-  "name": "abahata",
+  "name": "vibeshare",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,19 +7,21 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.4.1",
-    "react-native": "^0.56.0",
-    "react-navigation": "^2.11.2",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-native-navigation": "^2.2.0",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
     "redux-persist": "^5.10.0",
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "babel-jest": "23.4.2",
-    "babel-preset-react-native": "^5",
-    "jest": "23.5.0",
-    "react-test-renderer": "16.4.1"
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "react-test-renderer": "16.6.1"
   },
   "jest": {
     "preset": "react-native"
