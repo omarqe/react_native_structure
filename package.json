@@ -7,11 +7,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "lodash": "^4.17.11",
     "react": "16.6.1",
     "react-native": "0.57.7",
+    "react-native-auto-height-image": "^1.0.5",
     "react-native-gesture-handler": "^1.0.10",
+    "react-native-map-link": "^2.1.4",
     "react-native-navigation": "^2.2.0",
-    "react-navigation": "^2.18.2",
+    "react-native-phone-call": "^1.0.9",
+    "react-native-shimmer": "^0.4.1",
+    "react-navigation": "^2.18.3",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1",
     "redux-persist": "^5.10.0",
